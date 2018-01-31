@@ -3,5 +3,4 @@ from withings_data import views
 
 
 urlpatterns = patterns('',
-	url(r'^$', views.index, name='index'),
 )

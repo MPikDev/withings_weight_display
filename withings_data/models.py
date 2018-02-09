@@ -1,4 +1,13 @@
 from django.db import models
+from django.contrib.auth.models import User
+
+# built in User class
+# username
+# password
+# email
+# first_name
+# last_name
+
 
 class User(models.Model):
 	email = models.CharField(max_length=200)
